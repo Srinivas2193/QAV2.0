@@ -1,0 +1,114 @@
+.logoutButton{
+  height: 47px;
+}
+
+.logoutButton:hover{
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #d5d4db 0%, #f89575 51%, #d76b13 100%);
+}
+
+#navBarContainer{
+    color: #fff;
+    padding: 35px;
+}
+
+.object{
+    width: 200px;
+    height: max-content;
+    opacity: 0;
+    background-color: white;
+    border-radius: 5%;
+    border-color: #d3d3d3;
+    border-width: thin;
+    transform: scaleY(0.8) skewX(10deg);
+    transform-origin: 50% 0%;
+    transition-duration: 0.25s;
+    position: relative;
+    top: 0px;
+    left: -30px;
+  }
+  .btn{
+    width: max-content;
+  }
+  .btn:hover + .object {
+    opacity: 1;
+    transform: scaleY(1) skewX(0deg);
+  }  
+  .object:hover{
+    opacity: 1;
+    transform: scaleY(1) skewX(0deg);
+
+  }
+
+  .navBar{
+    position: relative;
+    top: 3px;
+    height: 56px;
+  }
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 21px solid white;
+    position: relative;
+    left: 70px;
+    top: -29px;
+    margin-bottom: -25px ;
+  }
+  
+
+  .dropdown_list{
+    width: max-content;
+    /* margin-left: -30px; */
+  }
+
+  .dropdown_list:hover{
+    color: #f9bc59;
+    height: fit-content;
+    width: max-content;
+    font-weight: 700;
+  }
+
+  .submenu{
+    width: 190px;
+    height: max-content;
+    padding: 2px;
+
+
+  }
+  .submenu:hover{
+    border: 1px rgb(170, 209, 254);
+    border-radius: 6px;
+    /* background-color: rgb(57, 60, 244); */
+  }
+
+/* #navBar{
+
+
+    grid-gap: 0%;
+    display: none;
+}
+#navBarContainer{
+    /* background-color: #243c5a; 
+    color: #fff;
+    padding: 35px;
+}
+
+#navBar > a{
+    color: #fff;
+    padding: 0px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navBar > a:hover{
+    font-weight: bold;
+    color: #eb7524;
+}
+.logoutButton:hover{
+    background-color: #fff;
+    height: 40px;
+    border-radius: 6px;
+} */

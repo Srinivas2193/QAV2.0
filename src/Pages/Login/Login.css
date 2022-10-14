@@ -1,0 +1,74 @@
+.logIn{
+    letter-spacing: 2px;
+    width: 100px;
+    height: 45px;
+    padding: 0px;
+    margin-right: 223px;
+    /* //margin: 2rem 0px 0px 1rem !important; */
+}
+.errMessage{
+    visibility: hidden;
+    display: none;
+    height: 25px;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff000014;
+    border-radius: 50px;
+    color: red;    
+}
+.textSize{
+    width: 350px;
+    padding: 13px;
+}
+
+.textColor{
+color: white;
+font-size:x-large;
+margin-right: 200px;
+}
+
+
+.passtextColor{
+color: white;
+font-size: x-large;
+margin-right: 209px;
+}
+.login{
+    padding: 30px;
+    /* background-color: #2d5a86; */
+    /* position: relative; */
+    /* left: 1070px; */
+     max-width: 769px; 
+    height: 751px;
+}
+.loginHeading{
+    margin-top: -40px;
+    font-size: 40px;
+}
+
+.log_img{
+    height: 751px;
+    width: 1183px;
+    box-shadow: 10px 0px 0px 1px rgb(63 81 132);
+    /* position: absolute; */
+    /* top: 126px; */
+}
+
+.forgotPass{
+    font-size: 20px;
+    margin-left: 146px;
+    margin-top: -40px;
+    color: white;
+}
+.textColor2{
+    color: white;
+    font-size: 20px; 
+    margin-top: 30px; 
+}
+
+/* // new classess */
+.formContainer{
+width: 800px;
+}
